@@ -1,12 +1,22 @@
-#include        <iostream>
-#include        <iomanip>
-using   namespace       std;
+//	Lab 5-11 : Problem Definition
+//	Make a program that find the prime numbers in the given range.
+//		example) find the prime numbers in the range [1..100]
+//		2, 3, 5, 7, ... , 97
+
+#include <iostream>
+using namespace std;
 
 int main()
 {
-    int i, begin, end, sum=0 ;
+	int begin, end;
 
-	// complete your code
-  
-    cout << "The sum value is " << sum << endl;
+	do
+	{
+		cout << "Enter your range [from, to] \n";
+		cin >> begin >> end;
+	} while (begin >= end || begin < 2 || end < 0);
+
+	
+	// Complete this code.
+	
 }
